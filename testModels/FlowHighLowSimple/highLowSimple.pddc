@@ -1,0 +1,9 @@
+dictionary id "_p990ANtiEeyuPY4dTqeFJQ"
+
+enum Data {
+	high
+	low
+}
+
+enumCharacteristicType Data using Data
+
