@@ -1,0 +1,101 @@
+-------------- GENERAL ---------------
+Constraint count: 1
+------------ CONSTRAINT 1 ------------
+Constraint name: "AtLeastOneMatchingRoleRequired"
+Violations found: 31
+--------- CONSTRAINT DETAILS ---------
+Data Characteristics: "GrantedRoles" set to variable "dataRoles"
+Condition: NEVER FLOWS
+------- CONSTRAINT VIOLATIONS --------
+1. "ccd (bc0ds19y33jakvyhrre39ub3u)" is not allowed to be input in "SEFF Entry Assembly_CreditCardDataDB.add (3nuxap30pkq9q6wckzzd8zndo)".
+	- Characteristic Variables: set variable "dataRoles" has value "User"
+
+2. "query (1flzg79kwrvylfyei0sjqcoae)" is not allowed to be input in "SEFF Entry Assembly_TravelPlanner.findFlights (9jjhg4uyl5wjjzdnde2qofvv1)".
+	- Characteristic Variables: set variable "dataRoles" has value "User", "Airline"
+
+3. "RETURN (d27o8px7fw78rs6c4sr0848jw)" is not allowed to be input in "UserAction Exit look for flights (4alv8az0cpzxc62ecsw27a0f2)".
+	- Characteristic Variables: set variable "dataRoles" has value "User", "Airline"
+
+4. "RETURN (12amhkqvbsfvxaklqpwf3mbw0)" is not allowed to be input in "SEFF Exit Assembly_TravelPlanner.findFlights (dwdu70cj5gk7cfeokck05l0k4)".
+	- Characteristic Variables: set variable "dataRoles" has value "User", "Airline"
+
+5. "RETURN (6ninr64rntbb6ew3xqn62l2dl)" is not allowed to be input in "UserAction Exit load ccd (62d0524i4xncmn3r52bauztig)".
+	- Characteristic Variables: set variable "dataRoles" has value "User"
+
+6. "RETURN (7omv54q0gxnlg9jwyz1pjio9c)" is not allowed to be input in "SEFF Exit Assembly_CreditCardDataDB.get (dk0ydve9v7n08qlvzrla1qvu3)".
+	- Characteristic Variables: set variable "dataRoles" has value "User"
+
+7. "ccd (4v2j35uodmt595ygbcqwcobaa)" is not allowed to be input in "UserAction Entry book flight using ccd (f3qgo6p93txci25ws5lrwdmbr)".
+	- Characteristic Variables: set variable "dataRoles" has value "User"
+
+8. "flights (6h4dvd2uzjeyr8ihzthu1oq0r)" is not allowed to be input in "UserAction Entry book flight using ccd (f3qgo6p93txci25ws5lrwdmbr)".
+	- Characteristic Variables: set variable "dataRoles" has value "User", "Airline"
+
+9. "ccd (dcb4xd6elarsb6q2axt7qc89y)" is not allowed to be input in "SEFF Entry Assembly_TravelPlanner.book (brz10lqsdpiea82wr8ayn8q83)".
+	- Characteristic Variables: set variable "dataRoles" has value "User"
+
+10. "flight (aeuxxvvovjenvsqs38b9ck3a)" is not allowed to be input in "SEFF Entry Assembly_TravelPlanner.book (brz10lqsdpiea82wr8ayn8q83)".
+	- Characteristic Variables: set variable "dataRoles" has value "User", "Airline"
+
+11. "RETURN (4wpulgtkgchq8vglkfrsbbgd1)" is not allowed to be input in "UserAction Exit book flight using ccd (209kuazvs5k4gwggicyg6md1b)".
+	- Characteristic Variables: set variable "dataRoles" has value "User", "Airline"
+
+12. "RETURN (d8bkb3g7xapty420kcgwztgpm)" is not allowed to be input in "SEFF Exit Assembly_TravelPlanner.book (acuynjczvebnss4bz1xgmdpsk)".
+	- Characteristic Variables: set variable "dataRoles" has value "User", "Airline"
+
+13. "flight (10bw3cq0r3noq3155vq8wnr6t)" is not allowed to be input in "SEFF Entry Assembly_FlightDB.add (e5svenu40e8mmeg4ozsyusydt)".
+	- Characteristic Variables: set variable "dataRoles" has value "User", "Airline"
+
+14. "ccd (belfjykjutsmgqbb4y6nyysa1)" is not allowed to be input in "SEFF Entry Assembly_AirlineLogic.book (cw3by45pmzi8c3dqzrpocv92i)".
+	- Characteristic Variables: set variable "dataRoles" has value "User"
+
+15. "flight (rrmi7rhkri60zq098x6tmw0k)" is not allowed to be input in "SEFF Entry Assembly_AirlineLogic.book (cw3by45pmzi8c3dqzrpocv92i)".
+	- Characteristic Variables: set variable "dataRoles" has value "User", "Airline"
+
+16. "RETURN (49st437c0oigqjvspus2q85bb)" is not allowed to be input in "SEFF Exit Assembly_AirlineLogic.book (aedqzq723zz6uvsiotn89xudp)".
+	- Characteristic Variables: set variable "dataRoles" has value "User", "Airline"
+
+17. "query (8260a2ek65fqmjeyws1zn3qro)" is not allowed to be input in "SEFF Entry Assembly_AirlineLogic.findFlights (dxdr1rbn7po2y22j7wz76h9l3)".
+	- Characteristic Variables: set variable "dataRoles" has value "User", "Airline"
+
+18. "RETURN (epcyjgfzjqyvke0lh7tvr2igu)" is not allowed to be input in "SEFF Exit Assembly_AirlineLogic.findFlights (cc9fxzbtlmq6zw7v7nz71vqaj)".
+	- Characteristic Variables: set variable "dataRoles" has value "User", "Airline"
+
+19. "flights (51qj6i5afamzw1ld82wtxzxj5)" is not allowed to be input in "Action select flights based on query and return selection (c3sav332q8awda42baildoaex)".
+	- Characteristic Variables: set variable "dataRoles" has value "User", "Airline"
+
+20. "query (a78nu3mnyofoti4ukfc2znjnr)" is not allowed to be input in "Action select flights based on query and return selection (c3sav332q8awda42baildoaex)".
+	- Characteristic Variables: set variable "dataRoles" has value "User", "Airline"
+
+21. "RETURN (c8z71goibt3s6ljdvyaig7fkp)" is not allowed to be input in "Action Exit read flights from DB (d8f1895isljfe1q81oq5bkisq)".
+	- Characteristic Variables: set variable "dataRoles" has value "User", "Airline"
+
+22. "RETURN (1cya81xrar2op3oy4vjptkyeh)" is not allowed to be input in "SEFF Exit Assembly_FlightDB.get (5dy7aqs1tmzdq829st8fca3w8)".
+	- Characteristic Variables: set variable "dataRoles" has value "User", "Airline"
+
+23. "input (83ardwu629bv9rsg9hzst4g8h)" is not allowed to be input in "Store Assembly_FlightDB.FlightDB (d2c1p93u29uffjne1nx7ngg1r)".
+	- Characteristic Variables: set variable "dataRoles" has value "User", "Airline"
+
+24. "input (5nuajiafyqyeu8yqqhpyrzxhj)" is not allowed to be input in "Store Assembly_CreditCardDataDB.CreditCardDataDB (f4wv3opx79muwsxhmxxgi40zy)".
+	- Characteristic Variables: set variable "dataRoles" has value "User"
+
+25. "confirmation (4s08w6sygdcwzhfpk130zivki)" is not allowed to be input in "Action return confirmation (hh0ljze67n7lb9pqct2h844b)".
+	- Characteristic Variables: set variable "dataRoles" has value "User", "Airline"
+
+26. "ccd (3hx4tsjqgs7nfmehblcdu411s)" is not allowed to be input in "Action Entry ask airline to book flight (1kvbomsrh87h5b7uce7ycxd7r)".
+	- Characteristic Variables: set variable "dataRoles" has value "User"
+
+27. "flight (f1jts882t66k1j863s3iwux8j)" is not allowed to be input in "Action Entry ask airline to book flight (1kvbomsrh87h5b7uce7ycxd7r)".
+	- Characteristic Variables: set variable "dataRoles" has value "User", "Airline"
+
+28. "RETURN (c5h5ttzbhcl3jrd80332st4df)" is not allowed to be input in "Action Exit ask airline to book flight (btq94a5aprae8rgpv01yh1382)".
+	- Characteristic Variables: set variable "dataRoles" has value "User", "Airline"
+
+29. "flights (8f6lex8sp96fh678bdtzuz41)" is not allowed to be input in "Action return found flights (9cu3sag1wtzxrgnr1712hzap6)".
+	- Characteristic Variables: set variable "dataRoles" has value "User", "Airline"
+
+30. "query (6l72e0w6julgcnb0md0nl0yaa)" is not allowed to be input in "Action Entry request flights from airline (67bbomv1ozhygt768vplhsv7w)".
+	- Characteristic Variables: set variable "dataRoles" has value "User", "Airline"
+
+31. "RETURN (644djie29gs8fbvgvejjhxly0)" is not allowed to be input in "Action Exit request flights from airline (cgkkucsalxzo80ahy98gfyztz)".
+	- Characteristic Variables: set variable "dataRoles" has value "User", "Airline"
