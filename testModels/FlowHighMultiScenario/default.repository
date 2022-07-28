@@ -43,6 +43,10 @@
         <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
       </parameters__OperationSignature>
     </signatures__OperationInterface>
-    <signatures__OperationInterface id="_FhBEgA5UEe2CiPg5-H8hnQ" entityName="chargeForCapuchino"/>
+    <signatures__OperationInterface id="_FhBEgA5UEe2CiPg5-H8hnQ" entityName="chargeForCapuchino">
+      <parameters__OperationSignature parameterName="credentials">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
   </interfaces__Repository>
 </repository:Repository>

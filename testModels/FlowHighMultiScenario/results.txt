@@ -2,8 +2,10 @@
 Constraint count: 1
 ------------ CONSTRAINT 1 ------------
 Constraint name: "NoFlowHighToLow"
-Violations found: 0
+Violations found: 1
 --------- CONSTRAINT DETAILS ---------
 Data Characteristics: "Data" set to "high"
 Condition: NEVER FLOWS
 Destination Characteristics: "Data" set to "low"
+------- CONSTRAINT VIOLATIONS --------
+1. "credentials (81m1e31v7byq9elg426rhxob3)" is not allowed to be input in "SEFF Entry Assembly_EspressoAccounting.chargeForCapuchino (86hkca1q8dkzyqpsk4uniq63u)".

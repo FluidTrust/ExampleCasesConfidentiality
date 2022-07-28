@@ -24,7 +24,7 @@
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_FRvw0CF-EeqYabGLKRlfzA">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.palladiosimulator.editors.sirius.assembly/description/assembly.odesign#//@ownedViewpoints[name='Assembly']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_FT00eCF-EeqYabGLKRlfzA" name="Assembly Diagram" repPath="#_FR5h0CF-EeqYabGLKRlfzA" changeId="c3f8e070-cd17-4c0b-8241-ab35713f327a">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_FT00eCF-EeqYabGLKRlfzA" name="Assembly Diagram" repPath="#_FR5h0CF-EeqYabGLKRlfzA" changeId="018c3d5d-fec6-45be-b2fe-56b70aa060b7">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.assembly/description/assembly.odesign#//@ownedViewpoints[name='Assembly']/@ownedRepresentations[name='Assembly%20Diagram']"/>
         <target xmi:type="system:System" href="default.system#_84D0kCHcEd6lJo4DCALHMw"/>
       </ownedRepresentationDescriptors>
@@ -150,7 +150,7 @@
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FT00kSF-EeqYabGLKRlfzA" x="-30" y="10" width="30" height="30"/>
               </children>
               <styles xmi:type="notation:ShapeStyle" xmi:id="_FT00iSF-EeqYabGLKRlfzA" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FT00iiF-EeqYabGLKRlfzA" x="330" y="29" width="276" height="154"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FT00iiF-EeqYabGLKRlfzA" x="345" y="42" width="276" height="154"/>
             </children>
             <styles xmi:type="notation:SortingStyle" xmi:id="_FT00gSF-EeqYabGLKRlfzA"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="_FT00giF-EeqYabGLKRlfzA"/>
@@ -172,17 +172,17 @@
         <styles xmi:type="notation:DiagramStyle" xmi:id="_FT00eyF-EeqYabGLKRlfzA"/>
         <edges xmi:type="notation:Edge" xmi:id="_FT00miF-EeqYabGLKRlfzA" type="4001" element="_FT00cCF-EeqYabGLKRlfzA" source="_FT00gyF-EeqYabGLKRlfzA" target="_FT00jyF-EeqYabGLKRlfzA">
           <children xmi:type="notation:Node" xmi:id="_FT00niF-EeqYabGLKRlfzA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FT00nyF-EeqYabGLKRlfzA" x="-3" y="-11"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FT00nyF-EeqYabGLKRlfzA" x="-5" y="-12"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_FT00oCF-EeqYabGLKRlfzA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FT00oSF-EeqYabGLKRlfzA" x="-6" y="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FT00oSF-EeqYabGLKRlfzA" x="-6" y="7"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_FT00oiF-EeqYabGLKRlfzA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FT00oyF-EeqYabGLKRlfzA" y="7"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FT00oyF-EeqYabGLKRlfzA" x="1" y="5"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_FT00myF-EeqYabGLKRlfzA"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_FT00nCF-EeqYabGLKRlfzA" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FT00nSF-EeqYabGLKRlfzA" points="[25, 1, -320, -24]$[330, 23, -15, -2]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FT00nSF-EeqYabGLKRlfzA" points="[25, 2, -347, -36]$[357, 36, -15, -2]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FT00pCF-EeqYabGLKRlfzA" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FT00pSF-EeqYabGLKRlfzA" id="(0.5,0.5)"/>
         </edges>
