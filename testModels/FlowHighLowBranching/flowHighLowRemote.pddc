@@ -1,8 +1,0 @@
-dictionary id "_JJhX4O55EeyvhI_DtvzSUQ"
-
-enum Data {
-	high
-	low
-}
-
-enumCharacteristicType Data using Data

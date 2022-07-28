@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:characteristics="http://palladiosimulator.org/dataflow/confidentiality/pcm/0.1.0/characteristics" xmlns:emfprofileapplication="http://www.modelversioning.org/emfprofile/application/1.1" xmlns:org.palladiosimulator.dataflow.confidentiality.pcm.model.profile="org.palladiosimulator.dataflow.confidentiality.pcm.model.profile" xmlns:usagemodel="http://palladiosimulator.org/PalladioComponentModel/UsageModel/5.2">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DataDictionaryCharacterized="http://palladiosimulator.org/dataflow/dictionary/characterized/1.0" xmlns:characteristics="http://palladiosimulator.org/dataflow/confidentiality/pcm/0.1.0/characteristics" xmlns:confidentiality="http://palladiosimulator.org/dataflow/confidentiality/pcm/0.1.0" xmlns:emfprofileapplication="http://www.modelversioning.org/emfprofile/application/1.1" xmlns:expression="http://palladiosimulator.org/dataflow/confidentiality/pcm/0.1.0/expression" xmlns:expressions="http://palladiosimulator.org/dataflow/dictionary/characterized/expressions/1.0" xmlns:org.palladiosimulator.dataflow.confidentiality.pcm.model.profile="org.palladiosimulator.dataflow.confidentiality.pcm.model.profile" xmlns:stoex="http://sdq.ipd.uka.de/StochasticExpressions/2.2" xmlns:usagemodel="http://palladiosimulator.org/PalladioComponentModel/UsageModel/5.2">
   <usagemodel:UsageModel>
     <usageScenario_UsageModel id="_LPnI8CHdEd6lJo4DCALHMw" entityName="EspressoOrderingUsageScenario">
       <scenarioBehaviour_UsageScenario id="_LPwS4CHdEd6lJo4DCALHMw" entityName="defaultUsageScenarioBehaviour">
@@ -8,6 +8,18 @@
         <actions_ScenarioBehaviour xsi:type="usagemodel:EntryLevelSystemCall" id="_NC8HwCHdEd6lJo4DCALHMw" successor="_H8BfsA3zEeCgT6LmvPDQdQ" predecessor="_LPwS4SHdEd6lJo4DCALHMw">
           <providedRole_EntryLevelSystemCall href="default.system#_-r1fUCHcEd6lJo4DCALHMw"/>
           <operationSignature__EntryLevelSystemCall href="default.repository#_KjhikgzkEeCFg86gxKwVPw"/>
+          <inputParameterUsages_EntryLevelSystemCall>
+            <variableCharacterisation_VariableUsage xsi:type="confidentiality:ConfidentialityVariableCharacterisation">
+              <specification_VariableCharacterisation specification="false"/>
+              <lhs xsi:type="expression:LhsEnumCharacteristicReference" id="_So8_8dtjEeyuPY4dTqeFJQ">
+                <characteristicType xsi:type="DataDictionaryCharacterized:EnumCharacteristicType" href="highLowSimple.pddc#_p990ANtiEeyuPY4dTqeFJQ-characteristicTypes@0"/>
+              </lhs>
+              <rhs xsi:type="expressions:ContainerCharacteristicReference" id="_So8_8ttjEeyuPY4dTqeFJQ">
+                <characteristicType xsi:type="DataDictionaryCharacterized:EnumCharacteristicType" href="highLowSimple.pddc#_p990ANtiEeyuPY4dTqeFJQ-characteristicTypes@0"/>
+              </rhs>
+            </variableCharacterisation_VariableUsage>
+            <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="credentials"/>
+          </inputParameterUsages_EntryLevelSystemCall>
         </actions_ScenarioBehaviour>
         <actions_ScenarioBehaviour xsi:type="usagemodel:Delay" id="_H8BfsA3zEeCgT6LmvPDQdQ" successor="_LPwS4iHdEd6lJo4DCALHMw" predecessor="_NC8HwCHdEd6lJo4DCALHMw">
           <timeSpecification_Delay specification="1.0"/>
@@ -21,8 +33,8 @@
   <emfprofileapplication:ProfileApplication>
     <stereotypeApplications xsi:type="org.palladiosimulator.dataflow.confidentiality.pcm.model.profile:Characterisable" appliedTo="_LPnI8CHdEd6lJo4DCALHMw">
       <extension href="../../plugin/org.palladiosimulator.dataflow.confidentiality.pcm.model.profile/profile.emfprofile_diagram#_yqyHQBBzEeucCo3FRAS_1w"/>
-      <characteristics xsi:type="characteristics:EnumCharacteristic" href="default.usagemodel.characteristics#_zufZIPLrEeyGzqITZLwvPQ"/>
-      <characteristics xsi:type="characteristics:EnumCharacteristic" href="default.usagemodel.characteristics#_UNCvIPLsEeyGzqITZLwvPQ"/>
+      <characteristics xsi:type="characteristics:EnumCharacteristic" href="default.usagemodel.characteristics#_7BdKMNtiEeyuPY4dTqeFJQ"/>
+      <characteristics xsi:type="characteristics:EnumCharacteristic" href="default.usagemodel.characteristics#_fkQWMA5PEe2CiPg5-H8hnQ"/>
     </stereotypeApplications>
     <importedProfiles nsURI="org.palladiosimulator.dataflow.confidentiality.pcm.model.profile" location="platform:/plugin/org.palladiosimulator.dataflow.confidentiality.pcm.model.profile/profile.emfprofile_diagram"/>
   </emfprofileapplication:ProfileApplication>

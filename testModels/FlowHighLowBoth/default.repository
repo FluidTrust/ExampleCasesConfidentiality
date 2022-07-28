@@ -34,6 +34,10 @@
     </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_n7g-oCHbEd62GabW1zGSBw" entityName="AccountingInterface">
-    <signatures__OperationInterface id="_KjhikgzkEeCFg86gxKwVPw" entityName="chargeForEspresso"/>
+    <signatures__OperationInterface id="_KjhikgzkEeCFg86gxKwVPw" entityName="chargeForEspresso">
+      <parameters__OperationSignature parameterName="credentials">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
   </interfaces__Repository>
 </repository:Repository>

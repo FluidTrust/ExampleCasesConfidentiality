@@ -32,6 +32,10 @@
         </branches_Branch>
       </steps_Behaviour>
     </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_KDM2QA5UEe2CiPg5-H8hnQ" describedService__SEFF="_FhBEgA5UEe2CiPg5-H8hnQ">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_KYTjkA5UEe2CiPg5-H8hnQ" successor_AbstractAction="_KYUKoA5UEe2CiPg5-H8hnQ"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_KYUKoA5UEe2CiPg5-H8hnQ" predecessor_AbstractAction="_KYTjkA5UEe2CiPg5-H8hnQ"/>
+    </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_n7g-oCHbEd62GabW1zGSBw" entityName="AccountingInterface">
     <signatures__OperationInterface id="_KjhikgzkEeCFg86gxKwVPw" entityName="chargeForEspresso">
@@ -39,5 +43,6 @@
         <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
       </parameters__OperationSignature>
     </signatures__OperationInterface>
+    <signatures__OperationInterface id="_FhBEgA5UEe2CiPg5-H8hnQ" entityName="chargeForCapuchino"/>
   </interfaces__Repository>
 </repository:Repository>

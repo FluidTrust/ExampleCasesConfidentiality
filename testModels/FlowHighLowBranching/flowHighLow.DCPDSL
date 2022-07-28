@@ -1,7 +1,0 @@
-import "platform:/resource/FlowHighLowRemote/flowHighLowRemote.pddc"
-
-type Data:Data
-
-constraint NoFlowHighToLow {
-	data.attribute.Data.high NEVER FLOWS element.property.Data.low
-} 

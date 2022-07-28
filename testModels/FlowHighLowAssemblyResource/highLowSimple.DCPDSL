@@ -1,0 +1,7 @@
+import "platform:/resource/FlowHighLowAssemblyResource/highLowSimple.pddc"
+
+type Data:Data
+
+constraint NoFlowHighToLow {
+	data.attribute.Data.high NEVER FLOWS element.property.Data.low
+} 
