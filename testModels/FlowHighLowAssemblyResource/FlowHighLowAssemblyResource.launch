@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.palladiosimulator.dataflow.confidentiality.pcm.querydsl.ui.custom.launchConfigurationType.dslanalysis">
+    <stringAttribute key="allocation" value="/FlowHighLowAssemblyResource/default.allocation"/>
+    <stringAttribute key="query" value="/FlowHighLowAssemblyResource/highLowSimple.DCPDSL"/>
+    <stringAttribute key="result" value="/FlowHighLowAssemblyResource/results.txt"/>
+    <stringAttribute key="usageModel" value="/FlowHighLowAssemblyResource/default.usagemodel"/>
+</launchConfiguration>

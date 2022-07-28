@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.palladiosimulator.dataflow.confidentiality.pcm.querydsl.ui.custom.launchConfigurationType.dslanalysis">
+    <stringAttribute key="result" value="/FlowHighMultiScenario/results.txt"/>
+</launchConfiguration>

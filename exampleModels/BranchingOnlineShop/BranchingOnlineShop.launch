@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.palladiosimulator.dataflow.confidentiality.pcm.querydsl.ui.custom.launchConfigurationType.dslanalysis">
+    <stringAttribute key="allocation" value="/BranchingOnlineShop/default.allocation"/>
+    <stringAttribute key="query" value="/BranchingOnlineShop/constraint.DCPDSL"/>
+    <stringAttribute key="result" value="/BranchingOnlineShop/results.txt"/>
+    <stringAttribute key="usageModel" value="/BranchingOnlineShop/default.usagemodel"/>
+</launchConfiguration>

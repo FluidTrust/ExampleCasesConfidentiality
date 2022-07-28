@@ -1,0 +1,9 @@
+-------------- GENERAL ---------------
+Constraint count: 1
+------------ CONSTRAINT 1 ------------
+Constraint name: "NoFlowHighToLow"
+Violations found: 0
+--------- CONSTRAINT DETAILS ---------
+Data Characteristics: "Data" set to "high"
+Condition: NEVER FLOWS
+Destination Characteristics: "Data" set to "low"
