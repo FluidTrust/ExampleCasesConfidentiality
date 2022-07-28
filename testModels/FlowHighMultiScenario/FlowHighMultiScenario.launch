@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.palladiosimulator.dataflow.confidentiality.pcm.querydsl.ui.custom.launchConfigurationType.dslanalysis">
-    <stringAttribute key="allocation" value="/FlowHighMultiScenario/default.allocation"/>
-    <stringAttribute key="query" value="/FlowHighMultiScenario/highLowSimple.DCPDSL"/>
     <stringAttribute key="result" value="/FlowHighMultiScenario/results.txt"/>
-    <stringAttribute key="usageModel" value="/FlowHighMultiScenario/default.usagemodel"/>
 </launchConfiguration>
